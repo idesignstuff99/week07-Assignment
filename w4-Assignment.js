@@ -186,9 +186,11 @@ willBuyDrink(false, 11);
 // Create a function of your own that solves a problem. In comments, write what the function does and why you created it.
 
 // Reverse a string: This function would take a string as an argument and return the reversed string.
+// EXTRA CREDIT!!! Find words that read the same forward and backwards!
 function reverseWord(word){
     return word.split('').reverse().join('');
 }
+console.log(reverseWord('mac'));
 console.log(reverseWord('noon')); //Word reads the same forward and backwards, lol
 console.log(reverseWord('dad')); //Word reads the same forward and backwards, lol
 console.log(reverseWord('civic')); //Word reads the same forward and backwards, lol
